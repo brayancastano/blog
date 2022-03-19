@@ -33,9 +33,9 @@ spring:
       enabled: false
   datasource:
     type: com.zaxxer.hikari.HikariDataSource
-    url: jdbc:postgresql://localhost:5432/blog
-    username: blog
-    password:
+    url: jdbc:postgresql://ec2-54-144-12-35.compute-1.amazonaws.com:5432/dbnacr85fr3q2r
+    username: lacfbdoeyobaso
+    password: 4d29bf75961fac80776bacaacfe44e4fb4478044827773ccc21c03d7ef8d85b2
     hikari:
       poolName: Hikari
       auto-commit: false
@@ -47,8 +47,8 @@ spring:
   mail:
     host: localhost
     port: 25
-    username:
-    password:
+    username: jugonbraik@gmail.com
+    password: brayan1997123asv
   thymeleaf:
     cache: true
   sleuth:

@@ -2,7 +2,6 @@ package com.blog.web.rest;
 
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.hamcrest.Matchers.hasItem;
-import static org.hamcrest.Matchers.hasItems;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.*;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.*;
 
@@ -12,7 +11,6 @@ import com.blog.domain.User;
 import com.blog.repository.UserRepository;
 import com.blog.security.AuthoritiesConstants;
 import com.blog.service.dto.AdminUserDTO;
-import com.blog.service.dto.UserDTO;
 import com.blog.service.mapper.UserMapper;
 import com.blog.web.rest.vm.ManagedUserVM;
 import java.time.Instant;

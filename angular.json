@@ -117,6 +117,7 @@
   },
   "defaultProject": "blog",
   "cli": {
+    "analytics": false,
     "cache": {
       "enabled": true,
       "path": "./target/angular/",
