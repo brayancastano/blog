@@ -50,6 +50,9 @@ jobs:
       - run:
           name: Run Front End Tests
           command: npm run ci:frontend:test
+      - run:
+          name: Deploy to Heroku
+          command: './mvnw -ntp com.heroku.sdk:heroku-maven-plugin:2.0.5:deploy -DskipTests -Pprod -Dheroku.buildpacks=heroku/jvm -Dheroku.appName=shielded-hollows-24330'
       # - run:
       #     name: 'E2E: Package'
       #     command: npm run ci:e2e:package
